@@ -1,0 +1,173 @@
+ /* Here declare our custom design css */
+
+.info-box.student {
+	background: url(./../images/student.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.info-box.student .info-box-stats {
+	position: relative;
+	padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    
+}
+.info-box.student .info-box-stats p {
+    color: #22baa0;
+    font-size: 28px;
+    height: 50%;
+    width: 50%;
+}
+.info-box.student .info-box-stats span.info-box-title {
+    color: #22baa0;
+}
+.info-box.teacher {
+	background: url(./../images/teacher.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.info-box.teacher .info-box-stats {
+   	position: relative;
+	padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+}
+.info-box.teacher .info-box-stats p {
+    color: #12AFCB;
+    font-size: 28px;
+}
+.info-box.teacher .info-box-stats span.info-box-title {
+    color: #12AFCB;
+}
+.info-box.parent {
+	background: url(./../images/parent.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.info-box.parent .info-box-stats {
+    position: relative;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+}
+.info-box.parent .info-box-stats p {
+    color: #6A5FAC;
+    font-size: 28px;
+}
+.info-box.parent .info-box-stats span.info-box-title {
+    color: #6A5FAC;
+}
+
+.info-box.presentation {
+    background: url(./../images/presentation.png);
+    background-repeat: no-repeat;
+    /*background-position: right center;*/
+    max-height: 109px;
+    max-width: 265px
+}
+.info-box.presentation .info-box-stats {
+    position: relative;
+	padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+}
+.info-box.presentation .info-box-stats p {
+    color: #6A5FAC;
+    font-size: 28px;
+}
+.info-box.presentation .info-box-stats span.info-box-title {
+    color: #6A5FAC;
+}
+
+.info-box.fee {
+	background: url(./../images/fee.jpg);
+    background-repeat: no-repeat;
+    /*background-position: right center;*/
+    max-height: 109px;
+    max-width: 265px
+}
+.info-box.fee .info-box-stats {
+    position: relative;
+	padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+}
+.info-box.fee .info-box-stats p {
+    color: #6A5FAC;
+    font-size: 28px;
+}
+.info-box.fee .info-box-stats span.info-box-title {
+    color: #6A5FAC;
+}
+
+.info-box.simple {
+	/*background: url(./../images/simple.png);*/
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.info-box.simple .info-box-stats {
+    position: relative;
+	padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+}
+.info-box.simple .info-box-stats p {
+    color: #6A5FAC;
+    font-size: 28px;
+}
+.info-box.simple .info-box-stats span.info-box-title {
+    color: #6A5FAC;
+}
+
+.info-box.attendence {
+	background: url(./../images/attendence.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.info-box.attendence .info-box-stats {
+	position: relative;
+	padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+}
+.info-box.attendence .info-box-stats p {
+    color: #F25656;
+    font-size: 28px;
+}
+.info-box.attendence .info-box-stats span.info-box-title {
+    color: #F25656;
+}
+
+.info-box.marquee {
+/*	background: url(./../images/budget.png);*/
+    background-repeat: no-repeat;
+    /*background-position: right center;*/
+}
+.info-box.marquee .info-box-stats {
+    /*position: relative;*/
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+}
+.info-box.marquee .info-box-stats p {
+    color: #6A5FAC;
+    /*font-size: 12px;*/
+    font-weight: bold;
+    overflow: auto
+}
+.info-box.marquee .info-box-stats span.info-box-title {
+    color: #6A5FAC;
+}
+
+
+.calendar-event {
+    padding: 7px 10px;
+    color: #5B5B5B;
+    background: #FCF8E3;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.button-possition input, button {
+    margin-top: 25px;
+    background-color: #12AFCB;
+    color: #fff;
+    border: 1px solid transparent;
+    display: inline-block;
+    padding: 6px 12px;
+}
+
+.require-field{
+	color: #ff0000;
+}
