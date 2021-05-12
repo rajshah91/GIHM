@@ -35,7 +35,7 @@
     <properties>
         <java-version>1.8</java-version>
         <springframework.version>5.2.1.RELEASE</springframework.version>
-        <springsecurity.version>4.0.2.RELEASE</springsecurity.version>
+        <springsecurity.version>5.2.10.RELEASE</springsecurity.version>
         <hibernate.version>4.3.5.Final</hibernate.version>
         <jackson.version>2.10.1</jackson.version>
         <org.aspectj-version>1.6.10</org.aspectj-version>
